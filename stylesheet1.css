@@ -1,5 +1,13 @@
+:root {
+  --background: DarkCyan;
+}
+
+ {
+  color: var(--main-branding-color);
+}
+
 body {
-  background-color: DarkCyan;
+  background-color: var(--background);
   overflow: auto;
 }
 
