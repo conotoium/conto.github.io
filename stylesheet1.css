@@ -1,10 +1,10 @@
 :root {
   --background: DarkCyan;
+  --text1: Black;
+  --text2: LightBlue;
 }
 
- {
-  color: var(--main-branding-color);
-}
+
 
 body {
   background-color: var(--background);
@@ -12,12 +12,12 @@ body {
 }
 
 h1 {
-  color: LightBlue;
+  color: var(--text2);
   margin-left: 20px;
 }
 
 p {
-  color: NonPhotoBlue;
+  color: var(--text2);
   margin-left: 14px;
 }
 
